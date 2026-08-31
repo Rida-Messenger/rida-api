@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+.github
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea
+.vscode
+
+# Local build artifacts
+bin/
+build/
+dist/
+tmp/
+*.exe
+*.out
+
+# Tests / coverage
+coverage/
+coverage.*
+*.cover
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+
+# Project tooling not needed for build
+Justfile
+
+# Documentation
+README.md
